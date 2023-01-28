@@ -18,7 +18,7 @@
 #contact{
     text-decoration: none;
     border-radius: 45px;
-    background-color: red;
+    background-color: rgba(99, 28, 28, 0.541);
     color: black;
     padding: 10px;
 }
@@ -28,7 +28,34 @@ h1{
     justify-content: center;
 }
 .aboutme{
-    background-color: red;
+    background-color: rgba(129, 29, 29, 0.384);
     border-radius: 50px;
-    margin: 20px;
+    padding: 70px 70px;
+}
+#selectedwork{
+    display: flex;
+}
+
+.sweetberries{
+    padding: 100px;
+    background-color: azure;
+}
+.randomquotegenerator{
+    padding: 100px;
+    background-color: aquamarine;
+}
+.react{
+    padding: 100px;
+    background-color: blanchedalmond;
+}
+.finalmimo{
+    padding: 100px;
+    background-color: antiquewhite;
+}
+.contact{
+    padding-top: 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
 }
